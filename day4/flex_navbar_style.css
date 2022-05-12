@@ -30,8 +30,7 @@ a {
 }
 
 .tab-menu-item.active {
-    /* 색상 설정
-    border-bottom: ; */
+    border-bottom: 1px solid blue;
 }
 
 .tab-menu::after {
