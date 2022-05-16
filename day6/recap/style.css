@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header {
+    /* padding: 10px 30px 10px 30px; */
+    background: red;
+    color: white;
+    padding: 10px 30px;
+    
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px; */
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    position: absolute;
+    bottom: 0;
+}
+
+section form input {
+    margin-right: 10px;
+}
+
+section form label:active {
+    color: blue;
+}
+
+ul {
+    list-style-type: none;
+}
